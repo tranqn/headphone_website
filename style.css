@@ -151,7 +151,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: start;
-  width: 100%;
+  /* width: 100% */;
 }
 
 .details_card_left_img {
@@ -172,7 +172,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: start;
-  width: 100%;
+  /* width: 100% */;
 }
 
 .details_card_right_img {
