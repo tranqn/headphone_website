@@ -75,7 +75,7 @@ nav {
 
 .where-to-buy_adress {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .where-to-buy_adress_img {
