@@ -38,7 +38,7 @@ p {
   color: #f63f5c;
 }
 .navbar_a:hover::after {
-  content: '';
+  content: "";
   background: #f63f5c;
   border-radius: 100px;
   height: 1px;
@@ -141,8 +141,12 @@ button {
 
 
 /* 3.Sektion) DETAILS */
-
-
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
 
 /* 4.Sektion) WHERE TO BUY */
 .where-to-buy {
