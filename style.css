@@ -62,7 +62,6 @@ p {
   background-image: url("./assets/img/bg1.png");
   background-position: center;
   background-size: cover;
-  height: 100vh;
 }
 header {
   display: flex;
@@ -92,7 +91,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: end;
-  padding-top: 180px;
+  padding: 180px 0 140px 0;
 }
 
 .hero_display_announce {
