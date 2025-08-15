@@ -139,7 +139,6 @@ button {
   justify-content: space-between;
 }
 
-
 /* 3.Sektion) DETAILS */
 .details {
   display: flex;
@@ -155,11 +154,21 @@ button {
   width: 100%;
 }
 
+.details_card_left_img {
+  height: 100%;
+  width: auto;
+}
+
 .details_card_right {
   display: flex;
   align-items: center;
   justify-content: start;
   width: 100%;
+}
+
+.details_card_right_img {
+  height: 100%;
+  width: auto;
 }
 
 /* 4.Sektion) WHERE TO BUY */
