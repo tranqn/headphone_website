@@ -176,8 +176,9 @@ button {
 }
 
 .details_card_right_img {
-  height: 100%;
-  width: auto;
+  /* height: 100%; */
+  /* width: auto; */
+  object-fit: cover;
 }
 
 .details_card_right_description {
