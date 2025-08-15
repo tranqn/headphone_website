@@ -5,3 +5,7 @@ body {
 }nav {
     display: flex;
 }
+
+footer {
+background-color: #F63F5C;
+}
