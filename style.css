@@ -2,10 +2,18 @@ body {
   margin: 0;
   font-family: "Rubik";
   scroll-behavior: smooth;
-}nav {
-    display: flex;
+}
+nav {
+  display: flex;
 }
 
 footer {
-background-color: #F63F5C;
+  background-color: #f63f5c;
+}
+
+.follow-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 130px;
 }
