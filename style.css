@@ -3,6 +3,12 @@ body {
   font-family: "Rubik";
   scroll-behavior: smooth;
 }
+
+.widescreen {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .padding-left-right {
   padding-left: 100px;
   padding-right: 100px;
