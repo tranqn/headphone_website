@@ -62,6 +62,20 @@ nav {
   height: auto;
 }
 
+
+/* 4.Sektion) WHERE TO BUY */
+.where-to-buy {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 32px;
+}
+
+.where-to-buy_h1 {
+  text-align: center;
+}
+
 .where-to-buy_adress_img {
   height: 32px;
   width: auto;
