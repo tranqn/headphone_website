@@ -26,28 +26,28 @@ p {
   padding: 0;
 }
 
-button {
-  color: white;
-  font-size: 18px;
-  font-weight: 550;
-  background-color: rgb(242 61 93);
-  border: #f63f5c;
-  box-shadow: 1px 1px 7px #f63f5c;
-  border-radius: 5px;
-  padding: 20px 58px;
-  margin-top: 40px;
-}
-
 .navbar_a {
   color: black;
   font-size: 22px;
   text-decoration: none;
+  position: relative;
+  width: max-content;
 }
 
 .navbar_a:hover {
   color: #f63f5c;
 }
 
+.navbar_a:hover::after {
+  content: '';
+  background: #f63f5c;
+  border-radius: 100px;
+  height: 1px;
+  width: 80%;
+  position: absolute;
+  top: 32px;
+  left: 0;
+}
 
 .widescreen {
   max-width: 1440px;
@@ -103,6 +103,18 @@ nav {
   align-items: start;
   gap: 30px;
   width: 500px;
+}
+
+button {
+  color: white;
+  font-size: 18px;
+  font-weight: 550;
+  background-color: rgb(242 61 93);
+  border: #f63f5c;
+  box-shadow: 1px 1px 7px #f63f5c;
+  border-radius: 5px;
+  padding: 20px 58px;
+  margin-top: 40px;
 }
 
 .hero_display_img {
