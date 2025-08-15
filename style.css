@@ -51,6 +51,10 @@ nav {
   align-items: start;
 }
 
+.hero_display_img {
+  width: 500px;
+  height: auto;
+}
 
 
 footer {
