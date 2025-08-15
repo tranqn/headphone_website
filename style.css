@@ -20,10 +20,44 @@ body {
   background-size: cover;
   height: 100vh;
 }
+header {
+  display: flex;
+  flex-direction: column;
+}
 
 nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 48px;
 }
+
+.header_nav_img {
+  height: 64px;
+  width: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero_display {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.hero_display_announce {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+
 
 footer {
   background-color: #f63f5c;
