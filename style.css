@@ -30,6 +30,12 @@ footer {
   height: 130px;
 }
 
+.follow-us_social-media-icons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
 .follow-us_social-media-icons_a_img {
   width: 64px;
   height: 64px;
