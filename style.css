@@ -122,9 +122,23 @@ button {
 }
 
 /* 2.Sektion) FEATURES */
-.feature_bg {
+.features_bg {
   background-color: #cdfcf6;
 }
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.features_display {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 /* 3.Sektion) DETAILS */
 
