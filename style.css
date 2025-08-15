@@ -169,7 +169,6 @@ button {
   margin: 0;
 }
 
-
 .features h3 {
   color: rgb(74 71 71);
   font-family: "PT Sans";
@@ -178,21 +177,21 @@ button {
   text-align: center;
 }
 
-
 /* 3.Sektion) DETAILS */
 .details {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
+  gap: 50px;
 }
 
 .details_card_left {
   display: flex;
   align-items: center;
   justify-content: start;
-  height: 400px
-  /* width: 100% */;
+  height: 400px /* width: 100% */;
+  background-color: #f7f7f7;
 }
 
 .details_card_left_img {
@@ -214,8 +213,8 @@ button {
   display: flex;
   align-items: center;
   justify-content: start;
-  height: 400px
-  /* width: 100% */;
+  height: 400px /* width: 100% */;
+  background-color: #f7f7f7;
 }
 
 .details_card_right_img {
