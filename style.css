@@ -30,6 +30,10 @@ footer {
   height: 130px;
 }
 
+.h4_red {
+  color: white;
+}
+
 .follow-us_social-media-icons {
   display: flex;
   justify-content: end;
