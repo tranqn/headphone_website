@@ -62,6 +62,14 @@ nav {
   height: auto;
 }
 
+.where-to-buy_adress_img {
+  height: 32px;
+  width: auto;
+}
+
+.where-to-buy_adress_span {
+  font-size: 28px;
+}
 
 footer {
   background-color: #f63f5c;
