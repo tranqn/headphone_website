@@ -4,7 +4,7 @@ body {
   scroll-behavior: smooth;
 }
 
-h4{
+h4 {
   font-size: 22px;
   font-weight: 400;
   margin: 0;
@@ -47,7 +47,6 @@ button {
 .navbar_a:hover {
   color: #f63f5c;
 }
-
 
 .widescreen {
   max-width: 1440px;
@@ -109,6 +108,13 @@ nav {
   width: 450px;
   height: auto;
 }
+
+/* 2.Sektion) FEATURES */
+.feature_bg {
+  background-color: #cdfcf6;
+}
+
+/* 3.Sektion) DETAILS */
 
 /* 4.Sektion) WHERE TO BUY */
 .where-to-buy {
