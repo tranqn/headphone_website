@@ -159,6 +159,15 @@ button {
   width: auto;
 }
 
+.details_card_left_description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 24px;
+  gap: 24px;
+}
+
 .details_card_right {
   display: flex;
   align-items: center;
@@ -169,6 +178,15 @@ button {
 .details_card_right_img {
   height: 100%;
   width: auto;
+}
+
+.details_card_right_description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 24px;
+  gap: 24px;
 }
 
 /* 4.Sektion) WHERE TO BUY */
