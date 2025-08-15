@@ -91,9 +91,10 @@ nav {
 
 .hero_display {
   display: flex;
-  justify-content: end;
+  justify-content: space-around;
   align-items: end;
   padding-top: 180px;
+  gap: 100px;
 }
 
 .hero_display_announce {
@@ -102,7 +103,7 @@ nav {
   justify-content: center;
   align-items: start;
   gap: 30px;
-  padding-right: 200px;
+  width: 500px;
 }
 
 .hero_display_img {
