@@ -134,6 +134,20 @@ button {
   justify-content: start;
 }
 
+.details_card_left {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+
+.details_card_right {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+
 /* 4.Sektion) WHERE TO BUY */
 .where-to-buy {
   display: flex;
