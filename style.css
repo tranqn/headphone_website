@@ -3,18 +3,17 @@ body {
   font-family: "Rubik";
   scroll-behavior: smooth;
 }
-.padding-left-right{
-    padding-left: 100px;
-    padding-right: 100px;
+.padding-left-right {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .header_bg {
-    background-image: url("./assets/img/bg1.png");
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+  background-image: url("./assets/img/bg1.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
-
 header {
   display: flex;
   flex-direction: column;
@@ -63,4 +62,20 @@ footer {
   justify-content: space-between;
   align-items: center;
   height: 130px;
+}
+
+.h4_red {
+  color: white;
+}
+
+.follow-us_social-media-icons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 32px;
+}
+
+.follow-us_social-media-icons_a_img {
+  width: 64px;
+  height: 64px;
 }
