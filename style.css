@@ -3,6 +3,19 @@ body {
   font-family: "Rubik";
   scroll-behavior: smooth;
 }
+.padding-left-right{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header_bg {
+    background-image: url("./assets/img/bg1.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
 nav {
   display: flex;
 }
